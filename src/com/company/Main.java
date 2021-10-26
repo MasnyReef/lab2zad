@@ -290,10 +290,6 @@ public class Main {
 
         static Auto noweAuto () {
 
-       // String marka,model;
-       // Double pojemnosc_silnika;
-        //KrajPochodzenia kraj;
-
         Scanner scanner=new Scanner(System.in);
         System.out.print("Podaj marke: ");
         String marka=scanner.nextLine();
@@ -310,20 +306,6 @@ public class Main {
         auto.setPojemnosc_silnika(pojemnosc_silnika);
         auto.setKraj(kraj);
 
-        /* String marka = UI.enterString("Podaj marke: ");
-            String model = UI.enterString("Podaj model :");
-            String pojemnosc_silnika = UI.enterString("Podaj pokemność(l) :");
-            String kraj = UI.enterString("Podaj kraj pochodzenia :");
-
-            Auto auto;
-            try {
-                auto = new Auto((String) marka,(String) model);
-                auto.setPojemnosc_silnika(pojemnosc_silnika);
-                auto.setKraj(kraj);
-            } catch (AutoException e) {
-                UI.printErrorMessage(e.getMessage());
-                return null;
-            }*////
             return auto;
         }
 
